@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f7fa;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+main {
+  background: #fff;
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.counter-box {
+  margin-bottom: 2rem;
+}
+.counter-label {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+.counter-value {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.source {
+  font-size: 0.95rem;
+  color: #555;
+}
+a {
+  color: #2063e7;
+  text-decoration: none;
+}
