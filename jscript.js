@@ -37,7 +37,7 @@ const lostPerSecond = totalLost / lostTotalSeconds;
 const childrenLostPerSecond = childrenLost / lostTotalSeconds;
 
 // Set the "losses" clock start time to Jan 1, 2025
-const lostStartTimestamp = new Date(`${lostStartYear}-01-01T00:00:00Z`).getTime();
+const lostStartTimestamp = new Date(`${lostStartYear}-01-20T00:00:00Z`).getTime();
 
 function updateLossCounters() {
   const now = Date.now();
